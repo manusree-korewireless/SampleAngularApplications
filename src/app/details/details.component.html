@@ -1,0 +1,22 @@
+<div class="text-center">
+  DETAILS PAGE
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Score</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let detail of details">
+      <th scope="row">{{detail.personId}}</th>
+      <td>{{detail.Name}}</td>
+      <td>{{detail.Score}}</td>
+      <td>{{detail.description}}</td>
+    </tr>
+  </tbody>
+</table>

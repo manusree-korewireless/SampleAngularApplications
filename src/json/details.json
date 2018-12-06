@@ -1,0 +1,20 @@
+[
+    {
+      "personId": 1,
+      "Name": "ABC",
+      "Score": "9",
+      "description": "First"
+    },
+    {
+        "personId": 2,
+        "Name": "PQR",
+        "Score": "5",
+        "description": "Third"
+    },
+    {
+        "personId": 3,
+        "Name": "XYZ",
+        "Score": "7",
+        "description": "Second"
+    }
+]
